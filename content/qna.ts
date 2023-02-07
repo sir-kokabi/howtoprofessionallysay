@@ -3,29 +3,29 @@ import { IQnA } from 'lib/types';
 const qna: IQnA[] = [
   {
     id: 1,
-    question: 'You are overcomplicating this',
+    question: 'موضوع رو بیش از حد دارید پیچیده می‌کنید',
     answer:
-      'Being mindful of timelines. Let’s concentrate on the initial scope.',
+      'حواستون به زمان‌بندی‌ها باشه. بیایید فقط رو همین موضوع تمرکز کنیم.',
     alternativeAnswers: [],
   },
   {
     id: 2,
-    question: 'That meeting sounds like a waste of my time',
+    question: 'اون جلسه فقط وقتم رو هدر می‌ده',
     answer:
       'I’m unable to add value to this meeting but I would be happy to review the minutes.',
     alternativeAnswers: [],
   },
   {
     id: 3,
-    question: 'I told you so',
-    answer: 'As per my prediction, this outcome does not come as a surprise.',
+    question: 'بهتون گفتم که',
+    answer: 'حدس می‌زدم این اتفاق بیفته.',
     alternativeAnswers: [],
   },
   {
     id: 4,
-    question: 'That sounds like a horrible idea',
+    question: 'خیلی ایدهٔ مزخرفیه',
     answer:
-      'Are we confident that this is the best solution or are we still exploring alternatives?',
+      'به نظرتون این بهترین راه‌حله؟ یا هنوز جا داره به ایده‌های دیگه‌ای فکر کنیم؟',
     alternativeAnswers: [],
   },
   {
@@ -39,14 +39,14 @@ const qna: IQnA[] = [
   {
     id: 6,
     question:
-      'Can you answer all of the questions I asked and not just pick and choose one',
+      'می‌شه به صورت گزینشی جواب ندید و به همهٔ سوالات جواب بدید',
     answer:
-      'Are you able to provide some clarity around the other questions previously asked?',
+      'به بعضی از سؤالات قبلی پاسخی ندادید. ممنون می‌شم یه توضیحی هم دربارهٔ اون‌ها بدید',
     alternativeAnswers: [],
   },
   {
     id: 7,
-    question: 'Did you even read my email?',
+    question: 'اصلاً ایمیلم رو خوندی؟',
     answer: 'Reattaching my email to provide further clarity',
     alternativeAnswers: ['I’ll provide an update when I have one'],
   },
